@@ -1,4 +1,5 @@
 1.  cat MobyDick.txt | grep -c Moby
-2.  cat MobyDick.txt | grep -o Moby | wc -w     (wc es word-count, y -w es word)
+2.  cat MobyDick.txt | grep -o Moby | wc -w             (wc es word-count, y -w es word)
 3.  cat MobyDick.txt | grep -wc if
-4.  cat MobyDick.txt | grep CHAPTER >> capitulos.txt
+4.  cat MobyDick.txt | grep CHAPTER >> capitulos.txt    (esta mal...)
+5.  cat MobyDick.txt | grep -c ^Moby
