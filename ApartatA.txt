@@ -2,3 +2,5 @@
 2.  echo "Justo Fernandez Olvera" > un.txt
 3.  cp ../procesos.txt dos/
 4.  cat procesos.txt | grep root
+5.  cat procesos.txt | awk '{print "PID:"$1,  "START:"$3}'      (awk agarra columnas de un archivo, va entre comillas simples, y añades texto con comillas dobles, como un echo)
+6.  cat procesos.txt | grep -n vicen
