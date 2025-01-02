@@ -1,1 +1,2 @@
 1.  cat MobyDick.txt | grep -c Moby
+2.  cat MobyDick.txt | grep -o Moby | wc -w
