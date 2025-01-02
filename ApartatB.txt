@@ -1,6 +1,7 @@
 1.  cat MobyDick.txt | grep -c Moby
-2.  cat MobyDick.txt | grep -o Moby | wc -w             (wc es word-count, y -w es word)
+2.  cat MobyDick.txt | grep -o Moby | wc -w                         (wc es word-count, y -w es word)
 3.  cat MobyDick.txt | grep -wc if
-4.  cat MobyDick.txt | grep CHAPTER >> capitulos.txt    (esta mal...)
+4.  cat MobyDick.txt | head -n 318 | tail -n 272 > capitulos.txt
 5.  cat MobyDick.txt | grep -c ^Moby
-6.  cat MobyDick.txt | grep -c Moby.$                   (sin la -c no me muestra las lineas???)
+6.  cat MobyDick.txt | grep -c Dick.$                               (sin la -c no me muestra las lineas???)
+7.  cat MobyDick.txt | grep -A 2 CHAPTER | tail -n 599 > resum.txt  (599 caracteres desde el primer CHAPTER desde el final hacia el principio, por eso 599 lineas arriba, y no su numero de linea 849)
