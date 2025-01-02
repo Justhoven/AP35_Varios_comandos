@@ -3,3 +3,4 @@
 3.  cat MobyDick.txt | grep -wc if
 4.  cat MobyDick.txt | grep CHAPTER >> capitulos.txt    (esta mal...)
 5.  cat MobyDick.txt | grep -c ^Moby
+6.  cat MobyDick.txt | grep -c Moby.$                   (sin la -c no me muestra las lineas???)
